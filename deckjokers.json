@@ -7,12 +7,12 @@
   "description": "Made with Joker Forge by jaydchw.\n\na sholium addon which adds decks",
   "prefix": "deck",
   "main_file": "main.lua",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "priority": 2025.08,
   "badge_colour": "228922",
   "badge_text_colour": "FFFFFF",
   "dependencies": [
-    "Sholium (>=2.3.0)",
+    "Sholium (>=2.3.1)",
     "Talisman (>=2.3.1)",
     "Steamodded (>=1.0.0~BETA-0711a)"
   ]
