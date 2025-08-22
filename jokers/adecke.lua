@@ -52,3 +52,11 @@ SMODS.Joker{ --A deck of Antimatter
         G.jokers.config.card_limit = G.jokers.config.card_limit - 52
     end
 }
+
+local check_for_buy_space_ref = G.FUNCS.check_for_buy_space
+G.FUNCS.check_for_buy_space = function(card)
+    if card.config.center.key == "j_deck_adecke" then -- ignore slot limit when bought
+        return true
+    end
+    return check_for_buy_space_ref(card)
+end
