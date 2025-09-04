@@ -1,3 +1,5 @@
+if Talisman then
+
 SMODS.Joker{ --A deck of Ascendance
     key = "adeck5",
     config = {
@@ -45,3 +47,5 @@ SMODS.Joker{ --A deck of Ascendance
         end
     end
 }
+
+end
