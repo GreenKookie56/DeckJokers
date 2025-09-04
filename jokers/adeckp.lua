@@ -1,3 +1,5 @@
+if Talisman and Sholium then
+
 SMODS.Joker{ --A peculiar deck in the observable universe that contains every decks
     key = "adeckp",
     config = {
@@ -267,3 +269,5 @@ SMODS.Joker{ --A peculiar deck in the observable universe that contains every de
         end
     end
 }
+
+end
