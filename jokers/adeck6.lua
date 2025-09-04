@@ -1,3 +1,5 @@
+if Talisman then
+
 SMODS.Joker{ --A deck of Prestige
     key = "adeck6",
     config = {
@@ -45,3 +47,5 @@ SMODS.Joker{ --A deck of Prestige
         end
     end
 }
+
+end
