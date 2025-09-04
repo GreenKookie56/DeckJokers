@@ -1,5 +1,6 @@
-if Talisman then
- if Sholium then
+if not Talisman or not next(SMODS.find_mod("Sholium")) then
+  return nil
+end
 
 SMODS.Joker{ --A peculiar deck in the observable universe that contains every decks
     key = "adeckp",
@@ -270,6 +271,3 @@ SMODS.Joker{ --A peculiar deck in the observable universe that contains every de
         end
     end
 }
-
- end
-end
