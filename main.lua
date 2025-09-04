@@ -29,5 +29,10 @@ local function load_jokers_folder()
         end
     end
 end
+local function load_rarities_file()
+    local mod_path = SMODS.current_mod.path
+    assert(SMODS.load_file("rarities.lua"))()
+end
 
+load_rarities_file()
 load_jokers_folder()
